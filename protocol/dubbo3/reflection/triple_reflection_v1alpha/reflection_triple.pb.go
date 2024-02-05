@@ -29,10 +29,10 @@ import (
 )
 
 import (
-	grpc_go "github.com/dubbogo/grpc-go"
-	codes "github.com/dubbogo/grpc-go/codes"
-	metadata "github.com/dubbogo/grpc-go/metadata"
-	status "github.com/dubbogo/grpc-go/status"
+	grpc_go "github.com/xd-luqiang/grpc-go"
+	codes "github.com/xd-luqiang/grpc-go/codes"
+	metadata "github.com/xd-luqiang/grpc-go/metadata"
+	status "github.com/xd-luqiang/grpc-go/status"
 
 	constant "github.com/dubbogo/triple/pkg/common/constant"
 	triple "github.com/dubbogo/triple/pkg/triple"

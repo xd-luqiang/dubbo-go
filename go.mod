@@ -16,7 +16,6 @@ require (
 	github.com/creasty/defaults v1.5.2
 	github.com/dubbogo/go-zookeeper v1.0.4-0.20211212162352-f9d2183d89d5
 	github.com/dubbogo/gost v1.11.25
-	github.com/dubbogo/grpc-go v1.42.9
 	github.com/dubbogo/triple v1.1.8
 	github.com/emicklei/go-restful/v3 v3.7.4
 	github.com/envoyproxy/go-control-plane v0.10.2-0.20220325020618-49ff273808a1
@@ -44,6 +43,7 @@ require (
 	github.com/satori/go.uuid v1.2.1-0.20181028125025-b2ce2384e17b
 	github.com/spf13/afero v1.2.2 // indirect
 	github.com/stretchr/testify v1.7.1
+	github.com/xd-luqiang/grpc-go v1.42.9-rc1
 	github.com/zouyx/agollo/v3 v3.4.5
 	go.etcd.io/etcd/api/v3 v3.5.4
 	go.etcd.io/etcd/client/v3 v3.5.4

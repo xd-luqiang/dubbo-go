@@ -19,7 +19,7 @@
 
 syntax = "proto3";
 
-option go_package = "github.com/dubbogo/grpc-go/reflection/triple_reflection_v1alpha";
+option go_package = "github.com/xd-luqiang/grpc-go/reflection/triple_reflection_v1alpha";
 
 package triple.reflection.v1alpha;
 

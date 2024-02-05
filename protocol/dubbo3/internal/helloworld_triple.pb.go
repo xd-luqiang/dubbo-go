@@ -28,9 +28,9 @@ import (
 )
 
 import (
-	grpc "github.com/dubbogo/grpc-go"
-	codes "github.com/dubbogo/grpc-go/codes"
-	status "github.com/dubbogo/grpc-go/status"
+	grpc "github.com/xd-luqiang/grpc-go"
+	codes "github.com/xd-luqiang/grpc-go/codes"
+	status "github.com/xd-luqiang/grpc-go/status"
 
 	common "github.com/dubbogo/triple/pkg/common"
 	constant "github.com/dubbogo/triple/pkg/common/constant"
