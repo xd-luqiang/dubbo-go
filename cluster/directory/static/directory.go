@@ -22,10 +22,10 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/cluster/directory/base"
-	"dubbo.apache.org/dubbo-go/v3/cluster/router/chain"
-	"dubbo.apache.org/dubbo-go/v3/common"
-	"dubbo.apache.org/dubbo-go/v3/protocol"
+	"github.com/xd-luqiang/dubbo-go/v3/cluster/directory/base"
+	"github.com/xd-luqiang/dubbo-go/v3/cluster/router/chain"
+	"github.com/xd-luqiang/dubbo-go/v3/common"
+	"github.com/xd-luqiang/dubbo-go/v3/protocol"
 )
 
 type directory struct {

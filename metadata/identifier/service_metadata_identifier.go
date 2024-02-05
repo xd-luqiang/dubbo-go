@@ -18,8 +18,8 @@
 package identifier
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/common"
-	"dubbo.apache.org/dubbo-go/v3/common/constant"
+	"github.com/xd-luqiang/dubbo-go/v3/common"
+	"github.com/xd-luqiang/dubbo-go/v3/common/constant"
 )
 
 // ServiceMetadataIdentifier is inherit baseMetaIdentifier with service params: Revision and Protocol

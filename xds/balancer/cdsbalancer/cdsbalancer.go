@@ -45,16 +45,16 @@ import (
 )
 
 import (
-	dubboLogger "dubbo.apache.org/dubbo-go/v3/common/logger"
-	"dubbo.apache.org/dubbo-go/v3/xds/balancer/clusterresolver"
-	"dubbo.apache.org/dubbo-go/v3/xds/balancer/ringhash"
-	"dubbo.apache.org/dubbo-go/v3/xds/client"
-	"dubbo.apache.org/dubbo-go/v3/xds/client/resource"
-	"dubbo.apache.org/dubbo-go/v3/xds/utils/buffer"
-	xdsinternal "dubbo.apache.org/dubbo-go/v3/xds/utils/credentials/xds"
-	"dubbo.apache.org/dubbo-go/v3/xds/utils/grpcsync"
-	"dubbo.apache.org/dubbo-go/v3/xds/utils/pretty"
-	internalserviceconfig "dubbo.apache.org/dubbo-go/v3/xds/utils/serviceconfig"
+	dubboLogger "github.com/xd-luqiang/dubbo-go/v3/common/logger"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/balancer/clusterresolver"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/balancer/ringhash"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/client"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/client/resource"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/utils/buffer"
+	xdsinternal "github.com/xd-luqiang/dubbo-go/v3/xds/utils/credentials/xds"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/utils/grpcsync"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/utils/pretty"
+	internalserviceconfig "github.com/xd-luqiang/dubbo-go/v3/xds/utils/serviceconfig"
 )
 
 const (

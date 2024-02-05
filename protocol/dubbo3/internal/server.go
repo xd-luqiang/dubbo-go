@@ -22,12 +22,12 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/common"
-	log "dubbo.apache.org/dubbo-go/v3/common/logger"
-	_ "dubbo.apache.org/dubbo-go/v3/common/proxy/proxy_factory"
-	"dubbo.apache.org/dubbo-go/v3/config"
-	_ "dubbo.apache.org/dubbo-go/v3/filter/filter_impl"
-	_ "dubbo.apache.org/dubbo-go/v3/metrics/prometheus"
+	"github.com/xd-luqiang/dubbo-go/v3/common"
+	log "github.com/xd-luqiang/dubbo-go/v3/common/logger"
+	_ "github.com/xd-luqiang/dubbo-go/v3/common/proxy/proxy_factory"
+	"github.com/xd-luqiang/dubbo-go/v3/config"
+	_ "github.com/xd-luqiang/dubbo-go/v3/filter/filter_impl"
+	_ "github.com/xd-luqiang/dubbo-go/v3/metrics/prometheus"
 )
 
 // server is used to implement helloworld.GreeterServer.

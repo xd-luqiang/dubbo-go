@@ -33,7 +33,7 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/xds/utils/transport/networktype"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/utils/transport/networktype"
 )
 
 const unixScheme = "unix"

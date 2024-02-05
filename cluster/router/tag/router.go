@@ -27,14 +27,14 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/common"
-	conf "dubbo.apache.org/dubbo-go/v3/common/config"
-	"dubbo.apache.org/dubbo-go/v3/common/constant"
-	"dubbo.apache.org/dubbo-go/v3/common/logger"
-	"dubbo.apache.org/dubbo-go/v3/config"
-	"dubbo.apache.org/dubbo-go/v3/config_center"
-	"dubbo.apache.org/dubbo-go/v3/protocol"
-	"dubbo.apache.org/dubbo-go/v3/remoting"
+	"github.com/xd-luqiang/dubbo-go/v3/common"
+	conf "github.com/xd-luqiang/dubbo-go/v3/common/config"
+	"github.com/xd-luqiang/dubbo-go/v3/common/constant"
+	"github.com/xd-luqiang/dubbo-go/v3/common/logger"
+	"github.com/xd-luqiang/dubbo-go/v3/config"
+	"github.com/xd-luqiang/dubbo-go/v3/config_center"
+	"github.com/xd-luqiang/dubbo-go/v3/protocol"
+	"github.com/xd-luqiang/dubbo-go/v3/remoting"
 )
 
 type PriorityRouter struct {

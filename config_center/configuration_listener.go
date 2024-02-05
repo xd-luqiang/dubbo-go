@@ -22,7 +22,7 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/remoting"
+	"github.com/xd-luqiang/dubbo-go/v3/remoting"
 )
 
 // ConfigurationListener for changing listener's event

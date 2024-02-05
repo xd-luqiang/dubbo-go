@@ -30,7 +30,7 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/xds/utils/envconfig"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/utils/envconfig"
 )
 
 // Name contains the parsed component of an xDS resource name.

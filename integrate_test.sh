@@ -39,7 +39,7 @@ echo "use dubbo-go-samples $3 branch for integration testing"
 git clone -b master https://github.com/apache/dubbo-go-samples.git samples && cd samples
 
 # update dubbo-go to current commit id
-go mod edit -replace=dubbo.apache.org/dubbo-go/v3=github.com/"$1"/v3@"$2"
+go mod edit -replace=github.com/xd-luqiang/dubbo-go/v3=github.com/"$1"/v3@"$2"
 
 go mod tidy
 

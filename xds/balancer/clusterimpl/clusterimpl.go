@@ -46,15 +46,15 @@ import (
 )
 
 import (
-	dubboLogger "dubbo.apache.org/dubbo-go/v3/common/logger"
-	internal "dubbo.apache.org/dubbo-go/v3/xds"
-	"dubbo.apache.org/dubbo-go/v3/xds/balancer/loadstore"
-	"dubbo.apache.org/dubbo-go/v3/xds/client"
-	"dubbo.apache.org/dubbo-go/v3/xds/client/load"
-	"dubbo.apache.org/dubbo-go/v3/xds/client/resource"
-	"dubbo.apache.org/dubbo-go/v3/xds/utils/buffer"
-	"dubbo.apache.org/dubbo-go/v3/xds/utils/grpcsync"
-	"dubbo.apache.org/dubbo-go/v3/xds/utils/pretty"
+	dubboLogger "github.com/xd-luqiang/dubbo-go/v3/common/logger"
+	internal "github.com/xd-luqiang/dubbo-go/v3/xds"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/balancer/loadstore"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/client"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/client/load"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/client/resource"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/utils/buffer"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/utils/grpcsync"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/utils/pretty"
 )
 
 const (

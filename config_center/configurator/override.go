@@ -26,10 +26,10 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/common"
-	"dubbo.apache.org/dubbo-go/v3/common/constant"
-	"dubbo.apache.org/dubbo-go/v3/common/extension"
-	"dubbo.apache.org/dubbo-go/v3/config_center"
+	"github.com/xd-luqiang/dubbo-go/v3/common"
+	"github.com/xd-luqiang/dubbo-go/v3/common/constant"
+	"github.com/xd-luqiang/dubbo-go/v3/common/extension"
+	"github.com/xd-luqiang/dubbo-go/v3/config_center"
 )
 
 func init() {

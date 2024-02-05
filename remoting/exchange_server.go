@@ -18,7 +18,7 @@
 package remoting
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/common"
+	"github.com/xd-luqiang/dubbo-go/v3/common"
 )
 
 // Server is the interface that wraps the basic Start method and Stop method.

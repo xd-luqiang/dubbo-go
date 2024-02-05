@@ -32,11 +32,11 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/common"
-	"dubbo.apache.org/dubbo-go/v3/common/constant"
-	"dubbo.apache.org/dubbo-go/v3/protocol"
-	"dubbo.apache.org/dubbo-go/v3/protocol/invocation"
-	"dubbo.apache.org/dubbo-go/v3/protocol/mock"
+	"github.com/xd-luqiang/dubbo-go/v3/common"
+	"github.com/xd-luqiang/dubbo-go/v3/common/constant"
+	"github.com/xd-luqiang/dubbo-go/v3/protocol"
+	"github.com/xd-luqiang/dubbo-go/v3/protocol/invocation"
+	"github.com/xd-luqiang/dubbo-go/v3/protocol/mock"
 )
 
 // test isCallingToGenericService branch

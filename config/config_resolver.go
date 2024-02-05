@@ -28,8 +28,8 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/common/file"
-	"dubbo.apache.org/dubbo-go/v3/config/parsers/properties"
+	"github.com/xd-luqiang/dubbo-go/v3/common/file"
+	"github.com/xd-luqiang/dubbo-go/v3/config/parsers/properties"
 )
 
 // GetConfigResolver get config resolver

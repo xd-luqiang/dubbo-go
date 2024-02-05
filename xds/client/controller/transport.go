@@ -36,10 +36,10 @@ import (
 )
 
 import (
-	controllerversion "dubbo.apache.org/dubbo-go/v3/xds/client/controller/version"
-	resourceversion "dubbo.apache.org/dubbo-go/v3/xds/client/controller/version"
-	"dubbo.apache.org/dubbo-go/v3/xds/client/load"
-	"dubbo.apache.org/dubbo-go/v3/xds/client/resource"
+	controllerversion "github.com/xd-luqiang/dubbo-go/v3/xds/client/controller/version"
+	resourceversion "github.com/xd-luqiang/dubbo-go/v3/xds/client/controller/version"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/client/load"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/client/resource"
 )
 
 // AddWatch adds a watch for an xDS resource given its type and name.

@@ -39,10 +39,10 @@ import (
 )
 
 import (
-	constant1 "dubbo.apache.org/dubbo-go/v3/common/constant"
-	protocol "dubbo.apache.org/dubbo-go/v3/protocol"
-	dubbo3 "dubbo.apache.org/dubbo-go/v3/protocol/dubbo3"
-	invocation "dubbo.apache.org/dubbo-go/v3/protocol/invocation"
+	constant1 "github.com/xd-luqiang/dubbo-go/v3/common/constant"
+	protocol "github.com/xd-luqiang/dubbo-go/v3/protocol"
+	dubbo3 "github.com/xd-luqiang/dubbo-go/v3/protocol/dubbo3"
+	invocation "github.com/xd-luqiang/dubbo-go/v3/protocol/invocation"
 )
 
 // This is a compile-time assertion to ensure that this generated file

@@ -39,7 +39,7 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/common/logger"
+	"github.com/xd-luqiang/dubbo-go/v3/common/logger"
 )
 
 // BalancerConfig wraps the name and config associated with one load balancing

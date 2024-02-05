@@ -36,8 +36,8 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/xds/client/resource"
-	xdsinternal "dubbo.apache.org/dubbo-go/v3/xds/utils/credentials/xds"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/client/resource"
+	xdsinternal "github.com/xd-luqiang/dubbo-go/v3/xds/utils/credentials/xds"
 )
 
 // connWrapper is a thin wrapper around a net.Conn returned by Accept(). It

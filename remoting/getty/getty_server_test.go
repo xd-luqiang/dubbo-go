@@ -26,7 +26,7 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/config"
+	"github.com/xd-luqiang/dubbo-go/v3/config"
 )
 
 func TestInitServer(t *testing.T) {

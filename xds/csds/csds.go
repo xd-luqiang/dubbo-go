@@ -50,11 +50,11 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/common/logger"
-	"dubbo.apache.org/dubbo-go/v3/xds/client"
-	_ "dubbo.apache.org/dubbo-go/v3/xds/client/controller/version/v2" // Register v2 xds_client.
-	_ "dubbo.apache.org/dubbo-go/v3/xds/client/controller/version/v3" // Register v3 xds_client.
-	"dubbo.apache.org/dubbo-go/v3/xds/client/resource"
+	"github.com/xd-luqiang/dubbo-go/v3/common/logger"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/client"
+	_ "github.com/xd-luqiang/dubbo-go/v3/xds/client/controller/version/v2" // Register v2 xds_client.
+	_ "github.com/xd-luqiang/dubbo-go/v3/xds/client/controller/version/v3" // Register v3 xds_client.
+	"github.com/xd-luqiang/dubbo-go/v3/xds/client/resource"
 )
 
 var (

@@ -22,7 +22,7 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/common"
+	"github.com/xd-luqiang/dubbo-go/v3/common"
 )
 
 // ServiceNameMapping  is the interface which trys to build the mapping between application-level service and interface-level service.

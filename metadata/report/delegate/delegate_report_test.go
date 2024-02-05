@@ -30,12 +30,12 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/common"
-	"dubbo.apache.org/dubbo-go/v3/common/constant"
-	"dubbo.apache.org/dubbo-go/v3/common/logger"
-	"dubbo.apache.org/dubbo-go/v3/config/instance"
-	"dubbo.apache.org/dubbo-go/v3/metadata/definition"
-	"dubbo.apache.org/dubbo-go/v3/metadata/identifier"
+	"github.com/xd-luqiang/dubbo-go/v3/common"
+	"github.com/xd-luqiang/dubbo-go/v3/common/constant"
+	"github.com/xd-luqiang/dubbo-go/v3/common/logger"
+	"github.com/xd-luqiang/dubbo-go/v3/config/instance"
+	"github.com/xd-luqiang/dubbo-go/v3/metadata/definition"
+	"github.com/xd-luqiang/dubbo-go/v3/metadata/identifier"
 )
 
 func TestMetadataReport_MetadataReportRetry(t *testing.T) {

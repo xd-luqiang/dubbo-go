@@ -22,7 +22,7 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/common/constant"
+	"github.com/xd-luqiang/dubbo-go/v3/common/constant"
 )
 
 // IMetadataIdentifier is the interface which describes the Metadata base identify

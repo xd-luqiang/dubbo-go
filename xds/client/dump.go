@@ -24,7 +24,7 @@
 package client
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/xds/client/resource"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/client/resource"
 )
 
 func mergeMaps(maps []map[string]resource.UpdateWithMD) map[string]resource.UpdateWithMD {

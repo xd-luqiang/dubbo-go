@@ -30,10 +30,10 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/common"
-	"dubbo.apache.org/dubbo-go/v3/common/constant"
-	"dubbo.apache.org/dubbo-go/v3/common/logger"
-	aslimiter "dubbo.apache.org/dubbo-go/v3/filter/adaptivesvc/limiter"
+	"github.com/xd-luqiang/dubbo-go/v3/common"
+	"github.com/xd-luqiang/dubbo-go/v3/common/constant"
+	"github.com/xd-luqiang/dubbo-go/v3/common/logger"
+	aslimiter "github.com/xd-luqiang/dubbo-go/v3/filter/adaptivesvc/limiter"
 )
 
 // ProviderConfig is the default configuration of service provider

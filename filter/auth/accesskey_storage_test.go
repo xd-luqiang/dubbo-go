@@ -27,9 +27,9 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/common"
-	"dubbo.apache.org/dubbo-go/v3/common/constant"
-	invocation2 "dubbo.apache.org/dubbo-go/v3/protocol/invocation"
+	"github.com/xd-luqiang/dubbo-go/v3/common"
+	"github.com/xd-luqiang/dubbo-go/v3/common/constant"
+	invocation2 "github.com/xd-luqiang/dubbo-go/v3/protocol/invocation"
 )
 
 func TestDefaultAccesskeyStorage_GetAccesskeyPair(t *testing.T) {

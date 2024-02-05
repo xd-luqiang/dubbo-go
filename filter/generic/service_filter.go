@@ -29,13 +29,13 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/common"
-	"dubbo.apache.org/dubbo-go/v3/common/constant"
-	"dubbo.apache.org/dubbo-go/v3/common/extension"
-	"dubbo.apache.org/dubbo-go/v3/common/logger"
-	"dubbo.apache.org/dubbo-go/v3/filter"
-	"dubbo.apache.org/dubbo-go/v3/protocol"
-	invocation2 "dubbo.apache.org/dubbo-go/v3/protocol/invocation"
+	"github.com/xd-luqiang/dubbo-go/v3/common"
+	"github.com/xd-luqiang/dubbo-go/v3/common/constant"
+	"github.com/xd-luqiang/dubbo-go/v3/common/extension"
+	"github.com/xd-luqiang/dubbo-go/v3/common/logger"
+	"github.com/xd-luqiang/dubbo-go/v3/filter"
+	"github.com/xd-luqiang/dubbo-go/v3/protocol"
+	invocation2 "github.com/xd-luqiang/dubbo-go/v3/protocol/invocation"
 )
 
 var (

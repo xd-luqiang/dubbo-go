@@ -32,7 +32,7 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/xds/client/resource/version"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/client/resource/version"
 )
 
 // UpdateValidatorFunc performs validations on update structs using

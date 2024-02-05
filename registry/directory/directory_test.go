@@ -28,16 +28,16 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/cluster/cluster"
-	_ "dubbo.apache.org/dubbo-go/v3/cluster/router/tag"
-	"dubbo.apache.org/dubbo-go/v3/common"
-	"dubbo.apache.org/dubbo-go/v3/common/constant"
-	"dubbo.apache.org/dubbo-go/v3/common/extension"
-	"dubbo.apache.org/dubbo-go/v3/config"
-	"dubbo.apache.org/dubbo-go/v3/protocol/invocation"
-	"dubbo.apache.org/dubbo-go/v3/protocol/protocolwrapper"
-	"dubbo.apache.org/dubbo-go/v3/registry"
-	"dubbo.apache.org/dubbo-go/v3/remoting"
+	"github.com/xd-luqiang/dubbo-go/v3/cluster/cluster"
+	_ "github.com/xd-luqiang/dubbo-go/v3/cluster/router/tag"
+	"github.com/xd-luqiang/dubbo-go/v3/common"
+	"github.com/xd-luqiang/dubbo-go/v3/common/constant"
+	"github.com/xd-luqiang/dubbo-go/v3/common/extension"
+	"github.com/xd-luqiang/dubbo-go/v3/config"
+	"github.com/xd-luqiang/dubbo-go/v3/protocol/invocation"
+	"github.com/xd-luqiang/dubbo-go/v3/protocol/protocolwrapper"
+	"github.com/xd-luqiang/dubbo-go/v3/registry"
+	"github.com/xd-luqiang/dubbo-go/v3/remoting"
 )
 
 func init() {

@@ -42,10 +42,10 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/xds/httpfilter"
-	"dubbo.apache.org/dubbo-go/v3/xds/utils/envconfig"
-	"dubbo.apache.org/dubbo-go/v3/xds/utils/rbac"
-	"dubbo.apache.org/dubbo-go/v3/xds/utils/resolver"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/httpfilter"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/utils/envconfig"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/utils/rbac"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/utils/resolver"
 )
 
 func init() {

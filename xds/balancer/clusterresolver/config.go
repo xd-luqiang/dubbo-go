@@ -37,8 +37,8 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/xds/balancer/ringhash"
-	internalserviceconfig "dubbo.apache.org/dubbo-go/v3/xds/utils/serviceconfig"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/balancer/ringhash"
+	internalserviceconfig "github.com/xd-luqiang/dubbo-go/v3/xds/utils/serviceconfig"
 )
 
 // DiscoveryMechanismType is the type of discovery mechanism.

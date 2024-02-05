@@ -34,7 +34,7 @@ import (
 )
 
 import (
-	internalserviceconfig "dubbo.apache.org/dubbo-go/v3/xds/utils/serviceconfig"
+	internalserviceconfig "github.com/xd-luqiang/dubbo-go/v3/xds/utils/serviceconfig"
 )
 
 func TestParseConfig(t *testing.T) {

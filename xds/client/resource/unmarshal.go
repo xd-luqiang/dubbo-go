@@ -37,7 +37,7 @@ import (
 )
 
 import (
-	dubboLogger "dubbo.apache.org/dubbo-go/v3/common/logger"
+	dubboLogger "github.com/xd-luqiang/dubbo-go/v3/common/logger"
 )
 
 // UnmarshalOptions wraps the input parameters for `UnmarshalXxx` functions.

@@ -32,9 +32,9 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/common/constant"
-	"dubbo.apache.org/dubbo-go/v3/common/extension"
-	"dubbo.apache.org/dubbo-go/v3/protocol/rest/client"
+	"github.com/xd-luqiang/dubbo-go/v3/common/constant"
+	"github.com/xd-luqiang/dubbo-go/v3/common/extension"
+	"github.com/xd-luqiang/dubbo-go/v3/protocol/rest/client"
 )
 
 func init() {

@@ -40,8 +40,8 @@ import (
 )
 
 import (
-	dubboLogger "dubbo.apache.org/dubbo-go/v3/common/logger"
-	cache "dubbo.apache.org/dubbo-go/v3/xds/utils/xds_cache"
+	dubboLogger "github.com/xd-luqiang/dubbo-go/v3/common/logger"
+	cache "github.com/xd-luqiang/dubbo-go/v3/xds/utils/xds_cache"
 )
 
 // subBalancerWrapper is used to keep the configurations that will be used to start

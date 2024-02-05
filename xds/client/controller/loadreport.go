@@ -32,8 +32,8 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/xds/client/controller/version"
-	"dubbo.apache.org/dubbo-go/v3/xds/client/load"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/client/controller/version"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/client/load"
 )
 
 // ReportLoad starts an load reporting stream to the given server. If the server

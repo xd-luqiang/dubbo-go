@@ -28,8 +28,8 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/xds/client"
-	"dubbo.apache.org/dubbo-go/v3/xds/client/resource"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/client"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/client/resource"
 )
 
 // resourceUpdate is a combined update from all the resources, in the order of

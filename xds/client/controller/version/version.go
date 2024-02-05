@@ -39,10 +39,10 @@ import (
 )
 
 import (
-	dubboLogger "dubbo.apache.org/dubbo-go/v3/common/logger"
-	"dubbo.apache.org/dubbo-go/v3/xds/client/load"
-	"dubbo.apache.org/dubbo-go/v3/xds/client/resource"
-	"dubbo.apache.org/dubbo-go/v3/xds/client/resource/version"
+	dubboLogger "github.com/xd-luqiang/dubbo-go/v3/common/logger"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/client/load"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/client/resource"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/client/resource/version"
 )
 
 var (

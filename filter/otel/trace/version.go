@@ -18,7 +18,7 @@
 package trace
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/common/constant"
+	"github.com/xd-luqiang/dubbo-go/v3/common/constant"
 )
 
 // Version is the current release version of the dubbogo instrumentation.

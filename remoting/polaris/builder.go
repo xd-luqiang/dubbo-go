@@ -23,19 +23,13 @@ import (
 	"net"
 	"strconv"
 	"strings"
-)
 
-import (
 	perrors "github.com/pkg/errors"
-
 	"github.com/polarismesh/polaris-go/api"
 	"github.com/polarismesh/polaris-go/pkg/config"
 	"github.com/polarismesh/polaris-go/pkg/model"
-)
-
-import (
-	"dubbo.apache.org/dubbo-go/v3/common"
-	"dubbo.apache.org/dubbo-go/v3/common/constant"
+	"github.com/xd-luqiang/dubbo-go/v3/common"
+	"github.com/xd-luqiang/dubbo-go/v3/common/constant"
 )
 
 // GetPolarisConfig get polaris config from dubbo url

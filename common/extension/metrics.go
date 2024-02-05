@@ -18,7 +18,7 @@
 package extension
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/metrics"
+	"github.com/xd-luqiang/dubbo-go/v3/metrics"
 )
 
 // we couldn't store the instance because the some instance may initialize before loading configuration

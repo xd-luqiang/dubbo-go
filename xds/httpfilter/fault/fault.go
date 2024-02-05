@@ -52,9 +52,9 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/xds/httpfilter"
-	"dubbo.apache.org/dubbo-go/v3/xds/utils/grpcrand"
-	iresolver "dubbo.apache.org/dubbo-go/v3/xds/utils/resolver"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/httpfilter"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/utils/grpcrand"
+	iresolver "github.com/xd-luqiang/dubbo-go/v3/xds/utils/resolver"
 )
 
 const headerAbortHTTPStatus = "x-envoy-fault-abort-request"

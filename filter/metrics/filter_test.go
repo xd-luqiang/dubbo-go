@@ -30,12 +30,12 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/common"
-	"dubbo.apache.org/dubbo-go/v3/common/extension"
-	"dubbo.apache.org/dubbo-go/v3/metrics"
-	_ "dubbo.apache.org/dubbo-go/v3/metrics/prometheus"
-	"dubbo.apache.org/dubbo-go/v3/protocol"
-	"dubbo.apache.org/dubbo-go/v3/protocol/invocation"
+	"github.com/xd-luqiang/dubbo-go/v3/common"
+	"github.com/xd-luqiang/dubbo-go/v3/common/extension"
+	"github.com/xd-luqiang/dubbo-go/v3/metrics"
+	_ "github.com/xd-luqiang/dubbo-go/v3/metrics/prometheus"
+	"github.com/xd-luqiang/dubbo-go/v3/protocol"
+	"github.com/xd-luqiang/dubbo-go/v3/protocol/invocation"
 )
 
 func TestMetricsFilterInvoke(t *testing.T) {

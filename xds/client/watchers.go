@@ -24,7 +24,7 @@
 package client
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/xds/client/resource"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/client/resource"
 )
 
 // WatchListener uses LDS to discover information about the provided listener.

@@ -19,19 +19,19 @@ package config
 
 //
 //import (
-//	"dubbo.apache.org/dubbo-go/v3/config"
-//	"dubbo.apache.org/dubbo-go/v3/config/consumer"
-//	protocol2 "dubbo.apache.org/dubbo-go/v3/config/protocol"
-//	"dubbo.apache.org/dubbo-go/v3/config/provider"
-//	"dubbo.apache.org/dubbo-go/v3/config/reference"
+//	"github.com/xd-luqiang/dubbo-go/v3/config"
+//	"github.com/xd-luqiang/dubbo-go/v3/config/consumer"
+//	protocol2 "github.com/xd-luqiang/dubbo-go/v3/config/protocol"
+//	"github.com/xd-luqiang/dubbo-go/v3/config/provider"
+//	"github.com/xd-luqiang/dubbo-go/v3/config/reference"
 //	"testing"
 //)
 //
 //import (
-//	"dubbo.apache.org/dubbo-go/v3/common/constant"
-//	"dubbo.apache.org/dubbo-go/v3/common/extension"
-//	"dubbo.apache.org/dubbo-go/v3/filter"
-//	"dubbo.apache.org/dubbo-go/v3/protocol"
+//	"github.com/xd-luqiang/dubbo-go/v3/common/constant"
+//	"github.com/xd-luqiang/dubbo-go/v3/common/extension"
+//	"github.com/xd-luqiang/dubbo-go/v3/filter"
+//	"github.com/xd-luqiang/dubbo-go/v3/protocol"
 //)
 //
 //func TestGracefulShutdownInit(t *testing.T) {

@@ -22,9 +22,9 @@ import (
 )
 
 import (
-	clusterpkg "dubbo.apache.org/dubbo-go/v3/cluster/cluster"
-	"dubbo.apache.org/dubbo-go/v3/common/constant"
-	"dubbo.apache.org/dubbo-go/v3/protocol"
+	clusterpkg "github.com/xd-luqiang/dubbo-go/v3/cluster/cluster"
+	"github.com/xd-luqiang/dubbo-go/v3/common/constant"
+	"github.com/xd-luqiang/dubbo-go/v3/protocol"
 )
 
 type interceptor struct {

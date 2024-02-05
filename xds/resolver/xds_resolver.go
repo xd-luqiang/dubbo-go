@@ -38,13 +38,13 @@ import (
 )
 
 import (
-	dubboLogger "dubbo.apache.org/dubbo-go/v3/common/logger"
-	"dubbo.apache.org/dubbo-go/v3/xds/client"
-	"dubbo.apache.org/dubbo-go/v3/xds/client/bootstrap"
-	"dubbo.apache.org/dubbo-go/v3/xds/client/resource"
-	"dubbo.apache.org/dubbo-go/v3/xds/utils/grpcsync"
-	"dubbo.apache.org/dubbo-go/v3/xds/utils/pretty"
-	iresolver "dubbo.apache.org/dubbo-go/v3/xds/utils/resolver"
+	dubboLogger "github.com/xd-luqiang/dubbo-go/v3/common/logger"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/client"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/client/bootstrap"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/client/resource"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/utils/grpcsync"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/utils/pretty"
+	iresolver "github.com/xd-luqiang/dubbo-go/v3/xds/utils/resolver"
 )
 
 const xdsScheme = "xds"

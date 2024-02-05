@@ -18,7 +18,7 @@
 package extension
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/metadata/report/factory"
+	"github.com/xd-luqiang/dubbo-go/v3/metadata/report/factory"
 )
 
 var metaDataReportFactories = make(map[string]func() factory.MetadataReportFactory, 8)

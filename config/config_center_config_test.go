@@ -26,8 +26,8 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/common/constant"
-	_ "dubbo.apache.org/dubbo-go/v3/config_center/apollo"
+	"github.com/xd-luqiang/dubbo-go/v3/common/constant"
+	_ "github.com/xd-luqiang/dubbo-go/v3/config_center/apollo"
 )
 
 func TestApolloConfigCenterConfig(t *testing.T) {

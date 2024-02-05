@@ -26,19 +26,19 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/common/constant"
-	_ "dubbo.apache.org/dubbo-go/v3/common/proxy/proxy_factory"
+	"github.com/xd-luqiang/dubbo-go/v3/common/constant"
+	_ "github.com/xd-luqiang/dubbo-go/v3/common/proxy/proxy_factory"
 )
 
 //import (
 //	"context"
-//	"dubbo.apache.org/dubbo-go/v3/config"
-//	"dubbo.apache.org/dubbo-go/v3/config/applicationConfig"
-//	"dubbo.apache.org/dubbo-go/v3/config/base"
-//	"dubbo.apache.org/dubbo-go/v3/config/consumer"
-//	"dubbo.apache.org/dubbo-go/v3/config/instance"
-//	"dubbo.apache.org/dubbo-go/v3/config/method"
-//	registry2 "dubbo.apache.org/dubbo-go/v3/config/registry"
+//	"github.com/xd-luqiang/dubbo-go/v3/config"
+//	"github.com/xd-luqiang/dubbo-go/v3/config/applicationConfig"
+//	"github.com/xd-luqiang/dubbo-go/v3/config/base"
+//	"github.com/xd-luqiang/dubbo-go/v3/config/consumer"
+//	"github.com/xd-luqiang/dubbo-go/v3/config/instance"
+//	"github.com/xd-luqiang/dubbo-go/v3/config/method"
+//	registry2 "github.com/xd-luqiang/dubbo-go/v3/config/registry"
 //	"sync"
 //	"testing"
 //)
@@ -48,13 +48,13 @@ import (
 //)
 //
 //import (
-//	"dubbo.apache.org/dubbo-go/v3/cluster/cluster_impl"
-//	"dubbo.apache.org/dubbo-go/v3/common"
-//	"dubbo.apache.org/dubbo-go/v3/common/constant"
-//	"dubbo.apache.org/dubbo-go/v3/common/extension"
-//	"dubbo.apache.org/dubbo-go/v3/filter"
-//	"dubbo.apache.org/dubbo-go/v3/protocol"
-//	"dubbo.apache.org/dubbo-go/v3/registry"
+//	"github.com/xd-luqiang/dubbo-go/v3/cluster/cluster_impl"
+//	"github.com/xd-luqiang/dubbo-go/v3/common"
+//	"github.com/xd-luqiang/dubbo-go/v3/common/constant"
+//	"github.com/xd-luqiang/dubbo-go/v3/common/extension"
+//	"github.com/xd-luqiang/dubbo-go/v3/filter"
+//	"github.com/xd-luqiang/dubbo-go/v3/protocol"
+//	"github.com/xd-luqiang/dubbo-go/v3/registry"
 //)
 //
 //var regProtocol protocol.Protocol

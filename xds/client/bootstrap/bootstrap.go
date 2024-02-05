@@ -47,11 +47,11 @@ import (
 )
 
 import (
-	dubboLogger "dubbo.apache.org/dubbo-go/v3/common/logger"
-	"dubbo.apache.org/dubbo-go/v3/xds/client/resource/version"
-	internal2 "dubbo.apache.org/dubbo-go/v3/xds/internal"
-	"dubbo.apache.org/dubbo-go/v3/xds/utils/envconfig"
-	"dubbo.apache.org/dubbo-go/v3/xds/utils/pretty"
+	dubboLogger "github.com/xd-luqiang/dubbo-go/v3/common/logger"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/client/resource/version"
+	internal2 "github.com/xd-luqiang/dubbo-go/v3/xds/internal"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/utils/envconfig"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/utils/pretty"
 )
 
 const (

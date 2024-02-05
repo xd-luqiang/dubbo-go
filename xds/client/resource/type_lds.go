@@ -32,7 +32,7 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/xds/httpfilter"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/httpfilter"
 )
 
 // ListenerUpdate contains information received in an LDS response, which is of

@@ -24,9 +24,9 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/common"
-	"dubbo.apache.org/dubbo-go/v3/common/observer"
-	"dubbo.apache.org/dubbo-go/v3/remoting"
+	"github.com/xd-luqiang/dubbo-go/v3/common"
+	"github.com/xd-luqiang/dubbo-go/v3/common/observer"
+	"github.com/xd-luqiang/dubbo-go/v3/remoting"
 )
 
 type KeyFunc func(*common.URL) string

@@ -32,15 +32,15 @@ import (
 )
 
 import (
-	clusterpkg "dubbo.apache.org/dubbo-go/v3/cluster/cluster"
-	"dubbo.apache.org/dubbo-go/v3/cluster/directory/static"
-	"dubbo.apache.org/dubbo-go/v3/cluster/loadbalance/random"
-	"dubbo.apache.org/dubbo-go/v3/common"
-	"dubbo.apache.org/dubbo-go/v3/common/constant"
-	"dubbo.apache.org/dubbo-go/v3/common/extension"
-	"dubbo.apache.org/dubbo-go/v3/protocol"
-	"dubbo.apache.org/dubbo-go/v3/protocol/invocation"
-	"dubbo.apache.org/dubbo-go/v3/protocol/mock"
+	clusterpkg "github.com/xd-luqiang/dubbo-go/v3/cluster/cluster"
+	"github.com/xd-luqiang/dubbo-go/v3/cluster/directory/static"
+	"github.com/xd-luqiang/dubbo-go/v3/cluster/loadbalance/random"
+	"github.com/xd-luqiang/dubbo-go/v3/common"
+	"github.com/xd-luqiang/dubbo-go/v3/common/constant"
+	"github.com/xd-luqiang/dubbo-go/v3/common/extension"
+	"github.com/xd-luqiang/dubbo-go/v3/protocol"
+	"github.com/xd-luqiang/dubbo-go/v3/protocol/invocation"
+	"github.com/xd-luqiang/dubbo-go/v3/protocol/mock"
 )
 
 var failfastUrl, _ = common.NewURL(

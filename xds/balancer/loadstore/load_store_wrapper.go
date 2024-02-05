@@ -29,7 +29,7 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/xds/client/load"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/client/load"
 )
 
 // NewWrapper creates a Wrapper.

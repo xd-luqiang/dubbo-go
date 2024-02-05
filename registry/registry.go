@@ -18,7 +18,7 @@
 package registry
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/common"
+	"github.com/xd-luqiang/dubbo-go/v3/common"
 )
 
 // Registry is the interface that wraps Register、UnRegister、Subscribe and UnSubscribe method.

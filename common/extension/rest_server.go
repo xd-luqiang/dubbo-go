@@ -18,7 +18,7 @@
 package extension
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/protocol/rest/server"
+	"github.com/xd-luqiang/dubbo-go/v3/protocol/rest/server"
 )
 
 var restServers = make(map[string]func() server.RestServer, 8)

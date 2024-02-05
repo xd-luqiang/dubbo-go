@@ -31,14 +31,14 @@ package rest
 //)
 //
 //import (
-//	"dubbo.apache.org/dubbo-go/v3/common"
-//	"dubbo.apache.org/dubbo-go/v3/common/extension"
-//	"dubbo.apache.org/dubbo-go/v3/config"
-//	"dubbo.apache.org/dubbo-go/v3/protocol/invocation"
-//	"dubbo.apache.org/dubbo-go/v3/protocol/rest/client"
-//	"dubbo.apache.org/dubbo-go/v3/protocol/rest/client/client_impl"
-//	rest_config "dubbo.apache.org/dubbo-go/v3/protocol/rest/config"
-//	"dubbo.apache.org/dubbo-go/v3/protocol/rest/server/server_impl"
+//	"github.com/xd-luqiang/dubbo-go/v3/common"
+//	"github.com/xd-luqiang/dubbo-go/v3/common/extension"
+//	"github.com/xd-luqiang/dubbo-go/v3/config"
+//	"github.com/xd-luqiang/dubbo-go/v3/protocol/invocation"
+//	"github.com/xd-luqiang/dubbo-go/v3/protocol/rest/client"
+//	"github.com/xd-luqiang/dubbo-go/v3/protocol/rest/client/client_impl"
+//	rest_config "github.com/xd-luqiang/dubbo-go/v3/protocol/rest/config"
+//	"github.com/xd-luqiang/dubbo-go/v3/protocol/rest/server/server_impl"
 //)
 //
 //const (

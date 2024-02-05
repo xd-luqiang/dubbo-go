@@ -32,11 +32,11 @@ package rest
 //)
 //
 //import (
-//	"dubbo.apache.org/dubbo-go/v3/common"
-//	"dubbo.apache.org/dubbo-go/v3/common/extension"
-//	_ "dubbo.apache.org/dubbo-go/v3/common/proxy/proxy_factory"
-//	"dubbo.apache.org/dubbo-go/v3/config"
-//	rest_config "dubbo.apache.org/dubbo-go/v3/protocol/rest/config"
+//	"github.com/xd-luqiang/dubbo-go/v3/common"
+//	"github.com/xd-luqiang/dubbo-go/v3/common/extension"
+//	_ "github.com/xd-luqiang/dubbo-go/v3/common/proxy/proxy_factory"
+//	"github.com/xd-luqiang/dubbo-go/v3/config"
+//	rest_config "github.com/xd-luqiang/dubbo-go/v3/protocol/rest/config"
 //)
 //
 //func TestRestProtocolRefer(t *testing.T) {

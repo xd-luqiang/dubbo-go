@@ -30,14 +30,14 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/common"
-	"dubbo.apache.org/dubbo-go/v3/common/constant"
-	"dubbo.apache.org/dubbo-go/v3/common/extension"
-	"dubbo.apache.org/dubbo-go/v3/filter"
-	"dubbo.apache.org/dubbo-go/v3/filter/handler"
-	"dubbo.apache.org/dubbo-go/v3/filter/tps/limiter"
-	"dubbo.apache.org/dubbo-go/v3/protocol"
-	"dubbo.apache.org/dubbo-go/v3/protocol/invocation"
+	"github.com/xd-luqiang/dubbo-go/v3/common"
+	"github.com/xd-luqiang/dubbo-go/v3/common/constant"
+	"github.com/xd-luqiang/dubbo-go/v3/common/extension"
+	"github.com/xd-luqiang/dubbo-go/v3/filter"
+	"github.com/xd-luqiang/dubbo-go/v3/filter/handler"
+	"github.com/xd-luqiang/dubbo-go/v3/filter/tps/limiter"
+	"github.com/xd-luqiang/dubbo-go/v3/protocol"
+	"github.com/xd-luqiang/dubbo-go/v3/protocol/invocation"
 )
 
 func TestTpsLimitFilterInvokeWithNoTpsLimiter(t *testing.T) {

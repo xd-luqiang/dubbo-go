@@ -48,8 +48,8 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/xds/client/resource/version"
-	"dubbo.apache.org/dubbo-go/v3/xds/utils/envconfig"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/client/resource/version"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/utils/envconfig"
 )
 
 var (

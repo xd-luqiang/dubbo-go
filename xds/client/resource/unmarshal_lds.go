@@ -45,10 +45,10 @@ import (
 )
 
 import (
-	dubboLogger "dubbo.apache.org/dubbo-go/v3/common/logger"
-	"dubbo.apache.org/dubbo-go/v3/xds/client/resource/version"
-	"dubbo.apache.org/dubbo-go/v3/xds/httpfilter"
-	"dubbo.apache.org/dubbo-go/v3/xds/utils/pretty"
+	dubboLogger "github.com/xd-luqiang/dubbo-go/v3/common/logger"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/client/resource/version"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/httpfilter"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/utils/pretty"
 )
 
 // UnmarshalListener processes resources received in an LDS response, validates

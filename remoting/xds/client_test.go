@@ -30,14 +30,14 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/common/constant"
-	"dubbo.apache.org/dubbo-go/v3/registry"
-	registryMocks "dubbo.apache.org/dubbo-go/v3/registry/mocks"
-	"dubbo.apache.org/dubbo-go/v3/remoting"
-	"dubbo.apache.org/dubbo-go/v3/remoting/xds/common"
-	"dubbo.apache.org/dubbo-go/v3/xds/client"
-	"dubbo.apache.org/dubbo-go/v3/xds/client/mocks"
-	"dubbo.apache.org/dubbo-go/v3/xds/client/resource"
+	"github.com/xd-luqiang/dubbo-go/v3/common/constant"
+	"github.com/xd-luqiang/dubbo-go/v3/registry"
+	registryMocks "github.com/xd-luqiang/dubbo-go/v3/registry/mocks"
+	"github.com/xd-luqiang/dubbo-go/v3/remoting"
+	"github.com/xd-luqiang/dubbo-go/v3/remoting/xds/common"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/client"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/client/mocks"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/client/resource"
 )
 
 const (

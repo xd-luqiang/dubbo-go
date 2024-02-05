@@ -24,7 +24,7 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/common/constant"
+	"github.com/xd-luqiang/dubbo-go/v3/common/constant"
 )
 
 // ApplicationConfig is a configuration for current applicationConfig, whether the applicationConfig is a provider or a consumer

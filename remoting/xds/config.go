@@ -22,7 +22,7 @@ import (
 )
 
 import (
-	xdsCommon "dubbo.apache.org/dubbo-go/v3/remoting/xds/common"
+	xdsCommon "github.com/xd-luqiang/dubbo-go/v3/remoting/xds/common"
 )
 
 type Config struct {

@@ -33,9 +33,9 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/common/logger"
-	"dubbo.apache.org/dubbo-go/v3/remoting/xds/common"
-	"dubbo.apache.org/dubbo-go/v3/xds/client"
+	"github.com/xd-luqiang/dubbo-go/v3/common/logger"
+	"github.com/xd-luqiang/dubbo-go/v3/remoting/xds/common"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/client"
 )
 
 const (

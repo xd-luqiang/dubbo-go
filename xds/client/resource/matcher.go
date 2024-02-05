@@ -33,10 +33,10 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/xds/utils/grpcrand"
-	"dubbo.apache.org/dubbo-go/v3/xds/utils/matcher"
-	metedatautils "dubbo.apache.org/dubbo-go/v3/xds/utils/metadata"
-	iresolver "dubbo.apache.org/dubbo-go/v3/xds/utils/resolver"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/utils/grpcrand"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/utils/matcher"
+	metedatautils "github.com/xd-luqiang/dubbo-go/v3/xds/utils/metadata"
+	iresolver "github.com/xd-luqiang/dubbo-go/v3/xds/utils/resolver"
 )
 
 // RouteToMatcher converts a route to a Matcher to match incoming RPC's against.

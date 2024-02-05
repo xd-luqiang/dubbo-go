@@ -8,8 +8,8 @@ Recommended Way: import what you needs, see also [dubbo-go/imports](https://gith
 package demo
 
 // use echo and generic filters
-import _ "dubbo.apache.org/dubbo-go/v3/filter/echo"
-import _ "dubbo.apache.org/dubbo-go/v3/filter/generic"
+import _ "github.com/xd-luqiang/dubbo-go/v3/filter/echo"
+import _ "github.com/xd-luqiang/dubbo-go/v3/filter/generic"
 ```
 
 Legacy way: import all filters by one line.
@@ -17,7 +17,7 @@ Legacy way: import all filters by one line.
 ```go
 package demo
 
-import _ "dubbo.apache.org/dubbo-go/v3/filter/filter_impl"
+import _ "github.com/xd-luqiang/dubbo-go/v3/filter/filter_impl"
 ```
 
 ## Contents

@@ -33,8 +33,8 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/common/logger"
-	"dubbo.apache.org/dubbo-go/v3/xds/utils/balancerload"
+	"github.com/xd-luqiang/dubbo-go/v3/common/logger"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/utils/balancerload"
 )
 
 const mdKey = "X-Endpoint-Load-Metrics-Bin"

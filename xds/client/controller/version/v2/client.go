@@ -46,11 +46,11 @@ import (
 )
 
 import (
-	dubboLogger "dubbo.apache.org/dubbo-go/v3/common/logger"
-	controllerversion "dubbo.apache.org/dubbo-go/v3/xds/client/controller/version"
-	"dubbo.apache.org/dubbo-go/v3/xds/client/resource"
-	resourceversion "dubbo.apache.org/dubbo-go/v3/xds/client/resource/version"
-	"dubbo.apache.org/dubbo-go/v3/xds/utils/pretty"
+	dubboLogger "github.com/xd-luqiang/dubbo-go/v3/common/logger"
+	controllerversion "github.com/xd-luqiang/dubbo-go/v3/xds/client/controller/version"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/client/resource"
+	resourceversion "github.com/xd-luqiang/dubbo-go/v3/xds/client/resource/version"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/utils/pretty"
 )
 
 func init() {

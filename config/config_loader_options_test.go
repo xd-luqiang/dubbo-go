@@ -27,7 +27,7 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/common/file"
+	"github.com/xd-luqiang/dubbo-go/v3/common/file"
 )
 
 func TestCheckGenre(t *testing.T) {

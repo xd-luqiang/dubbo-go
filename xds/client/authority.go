@@ -33,11 +33,11 @@ import (
 )
 
 import (
-	dubboLogger "dubbo.apache.org/dubbo-go/v3/common/logger"
-	"dubbo.apache.org/dubbo-go/v3/xds/client/bootstrap"
-	"dubbo.apache.org/dubbo-go/v3/xds/client/load"
-	"dubbo.apache.org/dubbo-go/v3/xds/client/pubsub"
-	"dubbo.apache.org/dubbo-go/v3/xds/client/resource"
+	dubboLogger "github.com/xd-luqiang/dubbo-go/v3/common/logger"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/client/bootstrap"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/client/load"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/client/pubsub"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/client/resource"
 )
 
 const federationScheme = "xdstp"
@@ -73,8 +73,8 @@ func (c *clientImpl) findAuthority(n *resource.Name) (_ *authority, unref func()
 	a, err := c.newAuthority(config)
 	if err != nil {
 		dubboLogger.Errorf(`[XDS Authority] new authority failed with error = %s, please makesure you have imported 
-	_ "dubbo.apache.org/dubbo-go/v3/xds/client/controller/version/v2"
-	_ "dubbo.apache.org/dubbo-go/v3/xds/client/controller/version/v3"`, err)
+	_ "github.com/xd-luqiang/dubbo-go/v3/xds/client/controller/version/v2"
+	_ "github.com/xd-luqiang/dubbo-go/v3/xds/client/controller/version/v3"`, err)
 		return nil, nil, fmt.Errorf("xds: failed to connect to the control plane for authority %q: %v", authority, err)
 	}
 	// All returned authority from this function will be used by a watch,

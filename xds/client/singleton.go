@@ -32,7 +32,7 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/xds/client/bootstrap"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/client/bootstrap"
 )
 
 const (

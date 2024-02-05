@@ -34,16 +34,16 @@ package zookeeper
 //)
 //
 //import (
-//	"dubbo.apache.org/dubbo-go/v3/common"
-//	"dubbo.apache.org/dubbo-go/v3/common/constant"
-//	"dubbo.apache.org/dubbo-go/v3/common/extension"
-//	"dubbo.apache.org/dubbo-go/v3/common/observer"
-//	"dubbo.apache.org/dubbo-go/v3/common/observer/dispatcher"
-//	"dubbo.apache.org/dubbo-go/v3/config"
-//	"dubbo.apache.org/dubbo-go/v3/metadata/mapping"
-//	"dubbo.apache.org/dubbo-go/v3/protocol"
-//	"dubbo.apache.org/dubbo-go/v3/registry"
-//	"dubbo.apache.org/dubbo-go/v3/registry/event"
+//	"github.com/xd-luqiang/dubbo-go/v3/common"
+//	"github.com/xd-luqiang/dubbo-go/v3/common/constant"
+//	"github.com/xd-luqiang/dubbo-go/v3/common/extension"
+//	"github.com/xd-luqiang/dubbo-go/v3/common/observer"
+//	"github.com/xd-luqiang/dubbo-go/v3/common/observer/dispatcher"
+//	"github.com/xd-luqiang/dubbo-go/v3/config"
+//	"github.com/xd-luqiang/dubbo-go/v3/metadata/mapping"
+//	"github.com/xd-luqiang/dubbo-go/v3/protocol"
+//	"github.com/xd-luqiang/dubbo-go/v3/registry"
+//	"github.com/xd-luqiang/dubbo-go/v3/registry/event"
 //)
 //
 //const testName = "test"

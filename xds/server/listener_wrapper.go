@@ -44,12 +44,12 @@ import (
 )
 
 import (
-	dubboLogger "dubbo.apache.org/dubbo-go/v3/common/logger"
-	"dubbo.apache.org/dubbo-go/v3/xds/client/bootstrap"
-	"dubbo.apache.org/dubbo-go/v3/xds/client/resource"
-	internalbackoff "dubbo.apache.org/dubbo-go/v3/xds/utils/backoff"
-	"dubbo.apache.org/dubbo-go/v3/xds/utils/envconfig"
-	"dubbo.apache.org/dubbo-go/v3/xds/utils/grpcsync"
+	dubboLogger "github.com/xd-luqiang/dubbo-go/v3/common/logger"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/client/bootstrap"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/client/resource"
+	internalbackoff "github.com/xd-luqiang/dubbo-go/v3/xds/utils/backoff"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/utils/envconfig"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/utils/grpcsync"
 )
 
 var (

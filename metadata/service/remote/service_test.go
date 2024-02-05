@@ -29,15 +29,15 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/common"
-	"dubbo.apache.org/dubbo-go/v3/common/extension"
-	"dubbo.apache.org/dubbo-go/v3/common/logger"
-	"dubbo.apache.org/dubbo-go/v3/config/instance"
-	"dubbo.apache.org/dubbo-go/v3/metadata/definition"
-	"dubbo.apache.org/dubbo-go/v3/metadata/identifier"
-	"dubbo.apache.org/dubbo-go/v3/metadata/report"
-	"dubbo.apache.org/dubbo-go/v3/metadata/report/factory"
-	"dubbo.apache.org/dubbo-go/v3/metadata/service/local"
+	"github.com/xd-luqiang/dubbo-go/v3/common"
+	"github.com/xd-luqiang/dubbo-go/v3/common/extension"
+	"github.com/xd-luqiang/dubbo-go/v3/common/logger"
+	"github.com/xd-luqiang/dubbo-go/v3/config/instance"
+	"github.com/xd-luqiang/dubbo-go/v3/metadata/definition"
+	"github.com/xd-luqiang/dubbo-go/v3/metadata/identifier"
+	"github.com/xd-luqiang/dubbo-go/v3/metadata/report"
+	"github.com/xd-luqiang/dubbo-go/v3/metadata/report/factory"
+	"github.com/xd-luqiang/dubbo-go/v3/metadata/service/local"
 )
 
 var (

@@ -34,10 +34,10 @@ import (
 )
 
 import (
-	dubboLogger "dubbo.apache.org/dubbo-go/v3/common/logger"
-	"dubbo.apache.org/dubbo-go/v3/xds/client/resource"
-	"dubbo.apache.org/dubbo-go/v3/xds/utils/buffer"
-	"dubbo.apache.org/dubbo-go/v3/xds/utils/grpcsync"
+	dubboLogger "github.com/xd-luqiang/dubbo-go/v3/common/logger"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/client/resource"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/utils/buffer"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/utils/grpcsync"
 )
 
 // Pubsub maintains resource watchers and resource updates.

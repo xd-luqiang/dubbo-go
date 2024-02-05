@@ -35,8 +35,8 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/protocol"
-	"dubbo.apache.org/dubbo-go/v3/protocol/invocation"
+	"github.com/xd-luqiang/dubbo-go/v3/protocol"
+	"github.com/xd-luqiang/dubbo-go/v3/protocol/invocation"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

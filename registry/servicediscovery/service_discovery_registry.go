@@ -32,16 +32,16 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/common"
-	"dubbo.apache.org/dubbo-go/v3/common/constant"
-	"dubbo.apache.org/dubbo-go/v3/common/extension"
-	"dubbo.apache.org/dubbo-go/v3/common/logger"
-	"dubbo.apache.org/dubbo-go/v3/metadata/mapping"
-	"dubbo.apache.org/dubbo-go/v3/metadata/service"
-	"dubbo.apache.org/dubbo-go/v3/metadata/service/local"
-	"dubbo.apache.org/dubbo-go/v3/registry"
-	"dubbo.apache.org/dubbo-go/v3/registry/event"
-	"dubbo.apache.org/dubbo-go/v3/registry/servicediscovery/synthesizer"
+	"github.com/xd-luqiang/dubbo-go/v3/common"
+	"github.com/xd-luqiang/dubbo-go/v3/common/constant"
+	"github.com/xd-luqiang/dubbo-go/v3/common/extension"
+	"github.com/xd-luqiang/dubbo-go/v3/common/logger"
+	"github.com/xd-luqiang/dubbo-go/v3/metadata/mapping"
+	"github.com/xd-luqiang/dubbo-go/v3/metadata/service"
+	"github.com/xd-luqiang/dubbo-go/v3/metadata/service/local"
+	"github.com/xd-luqiang/dubbo-go/v3/registry"
+	"github.com/xd-luqiang/dubbo-go/v3/registry/event"
+	"github.com/xd-luqiang/dubbo-go/v3/registry/servicediscovery/synthesizer"
 )
 
 func init() {

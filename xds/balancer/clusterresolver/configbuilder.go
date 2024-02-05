@@ -38,13 +38,13 @@ import (
 )
 
 import (
-	dubboLogger "dubbo.apache.org/dubbo-go/v3/common/logger"
-	"dubbo.apache.org/dubbo-go/v3/xds/balancer/clusterimpl"
-	"dubbo.apache.org/dubbo-go/v3/xds/balancer/priority"
-	"dubbo.apache.org/dubbo-go/v3/xds/balancer/ringhash"
-	"dubbo.apache.org/dubbo-go/v3/xds/client/resource"
-	"dubbo.apache.org/dubbo-go/v3/xds/utils/hierarchy"
-	internalserviceconfig "dubbo.apache.org/dubbo-go/v3/xds/utils/serviceconfig"
+	dubboLogger "github.com/xd-luqiang/dubbo-go/v3/common/logger"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/balancer/clusterimpl"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/balancer/priority"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/balancer/ringhash"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/client/resource"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/utils/hierarchy"
+	internalserviceconfig "github.com/xd-luqiang/dubbo-go/v3/xds/utils/serviceconfig"
 )
 
 const million = 1000000

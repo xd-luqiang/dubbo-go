@@ -23,8 +23,8 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/filter/adaptivesvc"
-	adasvcfilter "dubbo.apache.org/dubbo-go/v3/filter/adaptivesvc/limiter"
+	"github.com/xd-luqiang/dubbo-go/v3/filter/adaptivesvc"
+	adasvcfilter "github.com/xd-luqiang/dubbo-go/v3/filter/adaptivesvc/limiter"
 )
 
 var ReachLimitationErrorString = fmt.Sprintf("%s: %s",

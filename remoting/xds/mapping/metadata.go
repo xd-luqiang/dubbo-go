@@ -22,7 +22,7 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/common/constant"
+	"github.com/xd-luqiang/dubbo-go/v3/common/constant"
 )
 
 // GetDubboGoMetadata create metadata of dubbo-go-app and register to istiod

@@ -28,16 +28,16 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/common/constant"
-	"dubbo.apache.org/dubbo-go/v3/common/logger"
-	"dubbo.apache.org/dubbo-go/v3/protocol"
-	"dubbo.apache.org/dubbo-go/v3/registry"
-	xdsCommon "dubbo.apache.org/dubbo-go/v3/remoting/xds/common"
-	"dubbo.apache.org/dubbo-go/v3/remoting/xds/ewatcher"
-	"dubbo.apache.org/dubbo-go/v3/remoting/xds/mapping"
-	"dubbo.apache.org/dubbo-go/v3/xds/client"
-	"dubbo.apache.org/dubbo-go/v3/xds/client/resource"
-	"dubbo.apache.org/dubbo-go/v3/xds/utils/resolver"
+	"github.com/xd-luqiang/dubbo-go/v3/common/constant"
+	"github.com/xd-luqiang/dubbo-go/v3/common/logger"
+	"github.com/xd-luqiang/dubbo-go/v3/protocol"
+	"github.com/xd-luqiang/dubbo-go/v3/registry"
+	xdsCommon "github.com/xd-luqiang/dubbo-go/v3/remoting/xds/common"
+	"github.com/xd-luqiang/dubbo-go/v3/remoting/xds/ewatcher"
+	"github.com/xd-luqiang/dubbo-go/v3/remoting/xds/mapping"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/client"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/client/resource"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/utils/resolver"
 )
 
 const (

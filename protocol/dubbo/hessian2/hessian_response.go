@@ -33,7 +33,7 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/common/logger"
+	"github.com/xd-luqiang/dubbo-go/v3/common/logger"
 )
 
 // DubboResponse dubbo response

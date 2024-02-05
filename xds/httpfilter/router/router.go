@@ -38,8 +38,8 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/xds/httpfilter"
-	iresolver "dubbo.apache.org/dubbo-go/v3/xds/utils/resolver"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/httpfilter"
+	iresolver "github.com/xd-luqiang/dubbo-go/v3/xds/utils/resolver"
 )
 
 // TypeURL is the message type for the Router configuration.

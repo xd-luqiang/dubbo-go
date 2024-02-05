@@ -23,10 +23,10 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/common/constant"
-	"dubbo.apache.org/dubbo-go/v3/config_center"
-	"dubbo.apache.org/dubbo-go/v3/remoting"
-	"dubbo.apache.org/dubbo-go/v3/remoting/zookeeper"
+	"github.com/xd-luqiang/dubbo-go/v3/common/constant"
+	"github.com/xd-luqiang/dubbo-go/v3/config_center"
+	"github.com/xd-luqiang/dubbo-go/v3/remoting"
+	"github.com/xd-luqiang/dubbo-go/v3/remoting/zookeeper"
 )
 
 // CacheListener defines keyListeners and rootPath

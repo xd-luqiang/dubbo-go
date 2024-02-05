@@ -38,7 +38,7 @@ import (
 )
 
 import (
-	internalmatcher "dubbo.apache.org/dubbo-go/v3/xds/utils/matcher"
+	internalmatcher "github.com/xd-luqiang/dubbo-go/v3/xds/utils/matcher"
 )
 
 // matcher is an interface that takes data about incoming RPC's and returns

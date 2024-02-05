@@ -26,12 +26,12 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/cluster/loadbalance"
-	"dubbo.apache.org/dubbo-go/v3/cluster/metrics"
-	"dubbo.apache.org/dubbo-go/v3/common/constant"
-	"dubbo.apache.org/dubbo-go/v3/common/extension"
-	"dubbo.apache.org/dubbo-go/v3/common/logger"
-	"dubbo.apache.org/dubbo-go/v3/protocol"
+	"github.com/xd-luqiang/dubbo-go/v3/cluster/loadbalance"
+	"github.com/xd-luqiang/dubbo-go/v3/cluster/metrics"
+	"github.com/xd-luqiang/dubbo-go/v3/common/constant"
+	"github.com/xd-luqiang/dubbo-go/v3/common/extension"
+	"github.com/xd-luqiang/dubbo-go/v3/common/logger"
+	"github.com/xd-luqiang/dubbo-go/v3/protocol"
 )
 
 var (

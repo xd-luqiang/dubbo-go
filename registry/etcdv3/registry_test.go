@@ -32,9 +32,9 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/registry"
-	"dubbo.apache.org/dubbo-go/v3/remoting"
-	"dubbo.apache.org/dubbo-go/v3/remoting/etcdv3"
+	"github.com/xd-luqiang/dubbo-go/v3/registry"
+	"github.com/xd-luqiang/dubbo-go/v3/remoting"
+	"github.com/xd-luqiang/dubbo-go/v3/remoting/etcdv3"
 )
 
 type fields struct {

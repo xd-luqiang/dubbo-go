@@ -42,11 +42,11 @@ import (
 )
 
 import (
-	dubboLogger "dubbo.apache.org/dubbo-go/v3/common/logger"
-	"dubbo.apache.org/dubbo-go/v3/xds/client/resource/version"
-	"dubbo.apache.org/dubbo-go/v3/xds/utils/envconfig"
-	"dubbo.apache.org/dubbo-go/v3/xds/utils/matcher"
-	"dubbo.apache.org/dubbo-go/v3/xds/utils/pretty"
+	dubboLogger "github.com/xd-luqiang/dubbo-go/v3/common/logger"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/client/resource/version"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/utils/envconfig"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/utils/matcher"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/utils/pretty"
 )
 
 // TransportSocket proto message has a `name` field which is expected to be set

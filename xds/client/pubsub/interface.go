@@ -24,7 +24,7 @@
 package pubsub
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/xds/client/resource"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/client/resource"
 )
 
 // UpdateHandler receives and processes (by taking appropriate actions) xDS

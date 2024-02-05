@@ -31,14 +31,14 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/common"
-	"dubbo.apache.org/dubbo-go/v3/common/constant"
-	"dubbo.apache.org/dubbo-go/v3/common/extension"
-	"dubbo.apache.org/dubbo-go/v3/common/logger"
-	"dubbo.apache.org/dubbo-go/v3/registry"
-	"dubbo.apache.org/dubbo-go/v3/remoting"
-	"dubbo.apache.org/dubbo-go/v3/remoting/zookeeper"
-	"dubbo.apache.org/dubbo-go/v3/remoting/zookeeper/curator_discovery"
+	"github.com/xd-luqiang/dubbo-go/v3/common"
+	"github.com/xd-luqiang/dubbo-go/v3/common/constant"
+	"github.com/xd-luqiang/dubbo-go/v3/common/extension"
+	"github.com/xd-luqiang/dubbo-go/v3/common/logger"
+	"github.com/xd-luqiang/dubbo-go/v3/registry"
+	"github.com/xd-luqiang/dubbo-go/v3/remoting"
+	"github.com/xd-luqiang/dubbo-go/v3/remoting/zookeeper"
+	"github.com/xd-luqiang/dubbo-go/v3/remoting/zookeeper/curator_discovery"
 )
 
 const (

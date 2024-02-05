@@ -25,11 +25,11 @@ import (
 )
 
 import (
-	xdsCommon "dubbo.apache.org/dubbo-go/v3/remoting/xds/common"
-	"dubbo.apache.org/dubbo-go/v3/remoting/xds/mapping"
-	"dubbo.apache.org/dubbo-go/v3/xds/client"
-	"dubbo.apache.org/dubbo-go/v3/xds/client/bootstrap"
-	"dubbo.apache.org/dubbo-go/v3/xds/client/resource/version"
+	xdsCommon "github.com/xd-luqiang/dubbo-go/v3/remoting/xds/common"
+	"github.com/xd-luqiang/dubbo-go/v3/remoting/xds/mapping"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/client"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/client/bootstrap"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/client/resource/version"
 )
 
 // xdsClientFactoryFunction generates new xds client

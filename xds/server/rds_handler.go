@@ -28,7 +28,7 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/xds/client/resource"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/client/resource"
 )
 
 // rdsHandlerUpdate wraps the full RouteConfigUpdate that are dynamically

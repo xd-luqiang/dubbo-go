@@ -29,15 +29,15 @@ import (
 
 	tripleConstant "github.com/dubbogo/triple/pkg/common/constant"
 
-	"dubbo.apache.org/dubbo-go/v3/common"
-	"dubbo.apache.org/dubbo-go/v3/common/constant"
-	"dubbo.apache.org/dubbo-go/v3/common/logger"
-	"dubbo.apache.org/dubbo-go/v3/config"
-	"dubbo.apache.org/dubbo-go/v3/protocol"
 	triConfig "github.com/dubbogo/triple/pkg/config"
 	"github.com/dubbogo/triple/pkg/triple"
+	"github.com/xd-luqiang/dubbo-go/v3/common"
+	"github.com/xd-luqiang/dubbo-go/v3/common/constant"
+	"github.com/xd-luqiang/dubbo-go/v3/common/logger"
+	"github.com/xd-luqiang/dubbo-go/v3/config"
+	"github.com/xd-luqiang/dubbo-go/v3/protocol"
 
-	invocation_impl "dubbo.apache.org/dubbo-go/v3/protocol/invocation"
+	invocation_impl "github.com/xd-luqiang/dubbo-go/v3/protocol/invocation"
 )
 
 // same as dubbo_invoker.go attachmentKey

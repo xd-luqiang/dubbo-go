@@ -24,11 +24,11 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/common/constant"
-	"dubbo.apache.org/dubbo-go/v3/common/extension"
-	"dubbo.apache.org/dubbo-go/v3/filter"
-	"dubbo.apache.org/dubbo-go/v3/metrics"
-	"dubbo.apache.org/dubbo-go/v3/protocol"
+	"github.com/xd-luqiang/dubbo-go/v3/common/constant"
+	"github.com/xd-luqiang/dubbo-go/v3/common/extension"
+	"github.com/xd-luqiang/dubbo-go/v3/filter"
+	"github.com/xd-luqiang/dubbo-go/v3/metrics"
+	"github.com/xd-luqiang/dubbo-go/v3/protocol"
 )
 
 // must initialized before using the filter and after loading configuration

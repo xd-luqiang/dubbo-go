@@ -22,16 +22,16 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/common"
-	"dubbo.apache.org/dubbo-go/v3/common/constant"
-	"dubbo.apache.org/dubbo-go/v3/common/extension"
-	"dubbo.apache.org/dubbo-go/v3/common/logger"
-	"dubbo.apache.org/dubbo-go/v3/config"
-	_ "dubbo.apache.org/dubbo-go/v3/metadata/mapping/metadata"
-	"dubbo.apache.org/dubbo-go/v3/metadata/service"
-	"dubbo.apache.org/dubbo-go/v3/metadata/service/exporter"
-	_ "dubbo.apache.org/dubbo-go/v3/metadata/service/remote"
-	_ "dubbo.apache.org/dubbo-go/v3/protocol/dubbo"
+	"github.com/xd-luqiang/dubbo-go/v3/common"
+	"github.com/xd-luqiang/dubbo-go/v3/common/constant"
+	"github.com/xd-luqiang/dubbo-go/v3/common/extension"
+	"github.com/xd-luqiang/dubbo-go/v3/common/logger"
+	"github.com/xd-luqiang/dubbo-go/v3/config"
+	_ "github.com/xd-luqiang/dubbo-go/v3/metadata/mapping/metadata"
+	"github.com/xd-luqiang/dubbo-go/v3/metadata/service"
+	"github.com/xd-luqiang/dubbo-go/v3/metadata/service/exporter"
+	_ "github.com/xd-luqiang/dubbo-go/v3/metadata/service/remote"
+	_ "github.com/xd-luqiang/dubbo-go/v3/protocol/dubbo"
 )
 
 // MetadataServiceExporter is the ConfigurableMetadataServiceExporter which implement MetadataServiceExporter interface

@@ -28,9 +28,9 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/common/logger"
-	"dubbo.apache.org/dubbo-go/v3/protocol/dubbo/impl"
-	"dubbo.apache.org/dubbo-go/v3/remoting"
+	"github.com/xd-luqiang/dubbo-go/v3/common/logger"
+	"github.com/xd-luqiang/dubbo-go/v3/protocol/dubbo/impl"
+	"github.com/xd-luqiang/dubbo-go/v3/remoting"
 )
 
 // RpcClientPackageHandler Read data from server and Write data to server

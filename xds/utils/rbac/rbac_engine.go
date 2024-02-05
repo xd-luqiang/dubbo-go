@@ -49,7 +49,7 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/xds/utils/transport"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/utils/transport"
 )
 
 const logLevel = 2

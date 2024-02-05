@@ -18,9 +18,9 @@
 package extension
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/cluster/directory"
-	"dubbo.apache.org/dubbo-go/v3/common"
-	"dubbo.apache.org/dubbo-go/v3/registry"
+	"github.com/xd-luqiang/dubbo-go/v3/cluster/directory"
+	"github.com/xd-luqiang/dubbo-go/v3/common"
+	"github.com/xd-luqiang/dubbo-go/v3/registry"
 )
 
 type registryDirectory func(url *common.URL, registry registry.Registry) (directory.Directory, error)

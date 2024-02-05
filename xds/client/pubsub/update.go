@@ -28,8 +28,8 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/xds/client/resource"
-	"dubbo.apache.org/dubbo-go/v3/xds/utils/pretty"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/client/resource"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/utils/pretty"
 )
 
 type watcherInfoWithUpdate struct {

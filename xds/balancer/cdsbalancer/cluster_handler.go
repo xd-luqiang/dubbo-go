@@ -29,8 +29,8 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/xds/client"
-	"dubbo.apache.org/dubbo-go/v3/xds/client/resource"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/client"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/client/resource"
 )
 
 var errNotReceivedUpdate = errors.New("tried to construct a cluster update on a cluster that has not received an update")

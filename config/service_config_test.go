@@ -28,9 +28,9 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/common"
-	"dubbo.apache.org/dubbo-go/v3/common/constant"
-	_ "dubbo.apache.org/dubbo-go/v3/common/proxy/proxy_factory"
+	"github.com/xd-luqiang/dubbo-go/v3/common"
+	"github.com/xd-luqiang/dubbo-go/v3/common/constant"
+	_ "github.com/xd-luqiang/dubbo-go/v3/common/proxy/proxy_factory"
 )
 
 type HelloService struct {

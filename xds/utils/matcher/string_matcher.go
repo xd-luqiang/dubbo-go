@@ -37,7 +37,7 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/xds/utils/grpcutil"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/utils/grpcutil"
 )
 
 // StringMatcher contains match criteria for matching a string, and is an

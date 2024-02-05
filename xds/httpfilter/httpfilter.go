@@ -30,7 +30,7 @@ import (
 )
 
 import (
-	iresolver "dubbo.apache.org/dubbo-go/v3/xds/utils/resolver"
+	iresolver "github.com/xd-luqiang/dubbo-go/v3/xds/utils/resolver"
 )
 
 // FilterConfig represents an opaque data structure holding configuration for a

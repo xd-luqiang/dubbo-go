@@ -35,9 +35,9 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/xds/clusterspecifier"
-	"dubbo.apache.org/dubbo-go/v3/xds/httpfilter"
-	"dubbo.apache.org/dubbo-go/v3/xds/utils/matcher"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/clusterspecifier"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/httpfilter"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/utils/matcher"
 )
 
 // RouteConfigUpdate contains information received in an RDS response, which is

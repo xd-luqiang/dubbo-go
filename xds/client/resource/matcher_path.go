@@ -29,7 +29,7 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/xds/utils/matcher"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/utils/matcher"
 )
 
 type pathMatcher interface {

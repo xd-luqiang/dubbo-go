@@ -44,16 +44,16 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/xds/balancer/clustermanager"
-	"dubbo.apache.org/dubbo-go/v3/xds/balancer/ringhash"
-	"dubbo.apache.org/dubbo-go/v3/xds/client/resource"
-	"dubbo.apache.org/dubbo-go/v3/xds/httpfilter"
-	"dubbo.apache.org/dubbo-go/v3/xds/httpfilter/router"
-	"dubbo.apache.org/dubbo-go/v3/xds/utils/envconfig"
-	"dubbo.apache.org/dubbo-go/v3/xds/utils/grpcrand"
-	iresolver "dubbo.apache.org/dubbo-go/v3/xds/utils/resolver"
-	"dubbo.apache.org/dubbo-go/v3/xds/utils/serviceconfig"
-	"dubbo.apache.org/dubbo-go/v3/xds/utils/wrr"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/balancer/clustermanager"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/balancer/ringhash"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/client/resource"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/httpfilter"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/httpfilter/router"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/utils/envconfig"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/utils/grpcrand"
+	iresolver "github.com/xd-luqiang/dubbo-go/v3/xds/utils/resolver"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/utils/serviceconfig"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/utils/wrr"
 )
 
 const (

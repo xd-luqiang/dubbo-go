@@ -30,8 +30,8 @@ import (
 )
 
 import (
-	common "dubbo.apache.org/dubbo-go/v3/common"
-	protocol "dubbo.apache.org/dubbo-go/v3/protocol"
+	common "github.com/xd-luqiang/dubbo-go/v3/common"
+	protocol "github.com/xd-luqiang/dubbo-go/v3/protocol"
 )
 
 // MockRejectedExecutionHandler is a mock of RejectedExecutionHandler interface

@@ -43,9 +43,9 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/xds/client/load"
-	"dubbo.apache.org/dubbo-go/v3/xds/client/resource"
-	"dubbo.apache.org/dubbo-go/v3/xds/utils/pretty"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/client/load"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/client/resource"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/utils/pretty"
 )
 
 const clientFeatureLRSSendAllClusters = "envoy.lrs.supports_send_all_clusters"

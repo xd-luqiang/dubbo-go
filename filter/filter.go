@@ -22,7 +22,7 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/protocol"
+	"github.com/xd-luqiang/dubbo-go/v3/protocol"
 )
 
 // Filter is the interface which wraps Invoke and OnResponse method and defines the functions of a filter.

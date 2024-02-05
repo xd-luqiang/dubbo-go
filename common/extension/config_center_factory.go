@@ -22,7 +22,7 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/config_center"
+	"github.com/xd-luqiang/dubbo-go/v3/config_center"
 )
 
 var configCenterFactories = make(map[string]func() config_center.DynamicConfigurationFactory)

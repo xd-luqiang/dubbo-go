@@ -18,10 +18,10 @@
 package apollo
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/common"
-	"dubbo.apache.org/dubbo-go/v3/common/extension"
-	"dubbo.apache.org/dubbo-go/v3/config_center"
-	"dubbo.apache.org/dubbo-go/v3/config_center/parser"
+	"github.com/xd-luqiang/dubbo-go/v3/common"
+	"github.com/xd-luqiang/dubbo-go/v3/common/extension"
+	"github.com/xd-luqiang/dubbo-go/v3/config_center"
+	"github.com/xd-luqiang/dubbo-go/v3/config_center/parser"
 )
 
 func init() {

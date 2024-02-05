@@ -21,9 +21,9 @@ import (
 	"context"
 	"fmt"
 
-	"dubbo.apache.org/dubbo-go/v3/config"
-	"dubbo.apache.org/dubbo-go/v3/protocol/dubbo3/internal"
-	"dubbo.apache.org/dubbo-go/v3/protocol/invocation"
+	"github.com/xd-luqiang/dubbo-go/v3/config"
+	"github.com/xd-luqiang/dubbo-go/v3/protocol/dubbo3/internal"
+	"github.com/xd-luqiang/dubbo-go/v3/protocol/invocation"
 	native_grpc "github.com/xd-luqiang/grpc-go"
 )
 

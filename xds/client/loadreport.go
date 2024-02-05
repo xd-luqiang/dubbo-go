@@ -24,8 +24,8 @@
 package client
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/xds/client/load"
-	"dubbo.apache.org/dubbo-go/v3/xds/client/resource"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/client/load"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/client/resource"
 )
 
 // ReportLoad starts an load reporting stream to the given server. If the server

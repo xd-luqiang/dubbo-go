@@ -30,13 +30,13 @@ import (
 )
 
 import (
-	"dubbo.apache.org/dubbo-go/v3/common"
-	"dubbo.apache.org/dubbo-go/v3/common/constant"
-	"dubbo.apache.org/dubbo-go/v3/common/extension"
-	"dubbo.apache.org/dubbo-go/v3/common/logger"
-	"dubbo.apache.org/dubbo-go/v3/metadata/identifier"
-	"dubbo.apache.org/dubbo-go/v3/metadata/report"
-	"dubbo.apache.org/dubbo-go/v3/metadata/report/factory"
+	"github.com/xd-luqiang/dubbo-go/v3/common"
+	"github.com/xd-luqiang/dubbo-go/v3/common/constant"
+	"github.com/xd-luqiang/dubbo-go/v3/common/extension"
+	"github.com/xd-luqiang/dubbo-go/v3/common/logger"
+	"github.com/xd-luqiang/dubbo-go/v3/metadata/identifier"
+	"github.com/xd-luqiang/dubbo-go/v3/metadata/report"
+	"github.com/xd-luqiang/dubbo-go/v3/metadata/report/factory"
 )
 
 var emptyStrSlice = make([]string, 0)

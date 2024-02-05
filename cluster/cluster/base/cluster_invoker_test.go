@@ -27,11 +27,11 @@ import (
 )
 
 import (
-	clusterpkg "dubbo.apache.org/dubbo-go/v3/cluster/cluster"
-	"dubbo.apache.org/dubbo-go/v3/cluster/loadbalance/random"
-	"dubbo.apache.org/dubbo-go/v3/common"
-	"dubbo.apache.org/dubbo-go/v3/protocol"
-	"dubbo.apache.org/dubbo-go/v3/protocol/invocation"
+	clusterpkg "github.com/xd-luqiang/dubbo-go/v3/cluster/cluster"
+	"github.com/xd-luqiang/dubbo-go/v3/cluster/loadbalance/random"
+	"github.com/xd-luqiang/dubbo-go/v3/common"
+	"github.com/xd-luqiang/dubbo-go/v3/protocol"
+	"github.com/xd-luqiang/dubbo-go/v3/protocol/invocation"
 )
 
 const (

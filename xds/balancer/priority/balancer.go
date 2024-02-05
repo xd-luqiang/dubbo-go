@@ -44,12 +44,12 @@ import (
 )
 
 import (
-	dubboLogger "dubbo.apache.org/dubbo-go/v3/common/logger"
-	"dubbo.apache.org/dubbo-go/v3/xds/utils/balancergroup"
-	"dubbo.apache.org/dubbo-go/v3/xds/utils/buffer"
-	"dubbo.apache.org/dubbo-go/v3/xds/utils/grpcsync"
-	"dubbo.apache.org/dubbo-go/v3/xds/utils/hierarchy"
-	"dubbo.apache.org/dubbo-go/v3/xds/utils/pretty"
+	dubboLogger "github.com/xd-luqiang/dubbo-go/v3/common/logger"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/utils/balancergroup"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/utils/buffer"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/utils/grpcsync"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/utils/hierarchy"
+	"github.com/xd-luqiang/dubbo-go/v3/xds/utils/pretty"
 )
 
 // Name is the name of the priority balancer.
